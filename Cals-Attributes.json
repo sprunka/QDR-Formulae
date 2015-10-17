@@ -359,7 +359,50 @@
         ]
       },
       "mods": {
-        "bonusBag": []
+        "bonusBag": [
+          {
+            "name": "-3 Successes",
+            "desc": "",
+            "resIdx": -2,
+            "mod": -3
+          },
+          {
+            "name": "-2 Successes",
+            "desc": "",
+            "resIdx": -2,
+            "mod": -2
+          },
+          {
+            "name": "-1 Successes",
+            "desc": "",
+            "resIdx": -2,
+            "mod": -1
+          },
+          {
+            "name": "+1 Successes",
+            "desc": "",
+            "resIdx": -2,
+            "mod": 1
+          },
+          {
+            "name": "+2 Successes",
+            "desc": "",
+            "resIdx": -2,
+            "mod": 2
+          },
+          {
+            "name": "+3 Successes",
+            "desc": "",
+            "resIdx": -2,
+            "mod": 3
+          },
+          {
+            "name": "+4 Successes",
+            "desc": "",
+            "resIdx": -2,
+            "mod": 4
+          }
+        ]
       }
     }
   ],
