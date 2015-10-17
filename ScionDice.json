@@ -131,7 +131,7 @@
             "name": "Custom Pool",
             "desc": "Result is successes *over* threshold.",
             "resIdx": 1016,
-            "exp": "exal(pool,7)-diff"
+            "exp": "exal(pool,7)+epic-diff"
           }
         ]
       },
@@ -156,6 +156,16 @@
             "min": 1,
             "max": 20,
             "val": 8
+          },
+          {
+            "id": 2,
+            "name": "Epic Successes",
+            "desc": "",
+            "resIdx": 0,
+            "lbl": "epic",
+            "min": 0,
+            "max": 46,
+            "val": 2
           }
         ]
       },
