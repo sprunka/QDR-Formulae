@@ -4,76 +4,76 @@
     {
       "name": "Attribs etc.",
       "desc": "Scion: Cal Evans",
-      "resIdx": 1017,
+      "resIdx": 1013,
       "bags": {
         "diceBag": [
           {
             "id": 0,
-            "name": "Strength",
-            "desc": "",
+            "name": "STR",
+            "desc": "Strength",
             "resIdx": 1016,
             "exp": "exal(str,7)+estr"
           },
           {
             "id": 1,
-            "name": "Dexterity",
-            "desc": "",
+            "name": "DEX",
+            "desc": "Dexterity",
             "resIdx": 1016,
             "exp": "exal(dex,7)+edex"
           },
           {
             "id": 2,
-            "name": "Stamina",
-            "desc": "",
+            "name": "STA",
+            "desc": "Stamina",
             "resIdx": 1016,
             "exp": "exal(sta,7)+esta"
           },
           {
             "id": 3,
-            "name": "Charisma",
-            "desc": "",
+            "name": "CHA",
+            "desc": "Charisma",
             "resIdx": 1016,
             "exp": "exal(cha,7)+echa"
           },
           {
             "id": 4,
-            "name": "Manipulation",
-            "desc": "",
+            "name": "MAN",
+            "desc": "Manipulation",
             "resIdx": 1016,
             "exp": "exal(man,7)+eman"
           },
           {
             "id": 5,
-            "name": "Appearance",
-            "desc": "",
+            "name": "APP",
+            "desc": "Appearance",
             "resIdx": 1016,
             "exp": "exal(app,7)+eapp"
           },
           {
             "id": 6,
-            "name": "Perception",
-            "desc": "",
+            "name": "PER",
+            "desc": "Perception",
             "resIdx": 1016,
             "exp": "exal(per,7)+eper"
           },
           {
             "id": 7,
-            "name": "Intelligence",
-            "desc": "",
+            "name": "INT",
+            "desc": "Intelligence",
             "resIdx": 1016,
             "exp": "exal(int,7)+eint"
           },
           {
             "id": 8,
-            "name": "Wits",
-            "desc": "",
+            "name": "WIT",
+            "desc": "Wits",
             "resIdx": 1016,
             "exp": "exal(wit,7)+ewit"
           },
           {
             "id": 9,
-            "name": "Willpower",
-            "desc": "",
+            "name": "WILL",
+            "desc": "Willpower",
             "resIdx": 1016,
             "exp": "exal(will,7)"
           },
@@ -87,30 +87,30 @@
           {
             "id": 11,
             "name": "Endurance",
-            "desc": "Virtue 1",
+            "desc": "",
             "resIdx": 1016,
-            "exp": "exal(virt1,7)"
+            "exp": "exal(virtA,7)"
           },
           {
             "id": 12,
             "name": "Harmony",
-            "desc": "Virtue 2",
+            "desc": "",
             "resIdx": 1016,
-            "exp": "exal(virt2,7)"
+            "exp": "exal(virtB,7)"
           },
           {
             "id": 13,
             "name": "Intellect",
-            "desc": "Virtue 3",
+            "desc": "",
             "resIdx": 1016,
-            "exp": "exal(virt3,7)"
+            "exp": "exal(virtC,7)"
           },
           {
             "id": 14,
             "name": "Order",
-            "desc": "Virtue 4",
+            "desc": "",
             "resIdx": 1016,
-            "exp": "exal(virt4,7)"
+            "exp": "exal(virtD,7)"
           }
         ]
       },
@@ -184,7 +184,7 @@
             "lbl": "cha",
             "min": 1,
             "max": 11,
-            "val": 2
+            "val": 3
           },
           {
             "id": 7,
@@ -244,7 +244,7 @@
             "lbl": "per",
             "min": 1,
             "max": 11,
-            "val": 2
+            "val": 3
           },
           {
             "id": 13,
@@ -254,7 +254,7 @@
             "lbl": "eper",
             "min": 0,
             "max": 4,
-            "val": 0
+            "val": 2
           },
           {
             "id": 14,
@@ -274,7 +274,7 @@
             "lbl": "eint",
             "min": 0,
             "max": 4,
-            "val": 0
+            "val": 1
           },
           {
             "id": 16,
@@ -284,7 +284,7 @@
             "lbl": "wit",
             "min": 1,
             "max": 11,
-            "val": 2
+            "val": 4
           },
           {
             "id": 17,
@@ -294,7 +294,7 @@
             "lbl": "ewit",
             "min": 0,
             "max": 4,
-            "val": 0
+            "val": 1
           },
           {
             "id": 18,
@@ -308,52 +308,52 @@
           },
           {
             "id": 19,
-            "name": "Endurance",
-            "desc": "Deva Virtue",
-            "resIdx": 0,
-            "lbl": "virt1",
-            "min": 1,
-            "max": 5,
-            "val": 1
-          },
-          {
-            "id": 20,
-            "name": "Harmony",
-            "desc": "Deva Virtue",
-            "resIdx": 0,
-            "lbl": "virt2",
-            "min": 0,
-            "max": 5,
-            "val": 3
-          },
-          {
-            "id": 21,
-            "name": "Intellect",
-            "desc": "Deva Virtue",
-            "resIdx": 0,
-            "lbl": "virt3",
-            "min": 0,
-            "max": 5,
-            "val": 2
-          },
-          {
-            "id": 22,
-            "name": "Order",
-            "desc": "Deva Virtue",
-            "resIdx": 0,
-            "lbl": "virt4",
-            "min": 0,
-            "max": 5,
-            "val": 3
-          },
-          {
-            "id": 23,
             "name": "Legend",
             "desc": "",
             "resIdx": 0,
             "lbl": "leg",
             "min": 2,
             "max": 11,
+            "val": 3
+          },
+          {
+            "id": 20,
+            "name": "Endurance",
+            "desc": "[virtue 1]",
+            "resIdx": 0,
+            "lbl": "virtA",
+            "min": 1,
+            "max": 5,
+            "val": 1
+          },
+          {
+            "id": 21,
+            "name": "Harmony",
+            "desc": "[virtue 2]",
+            "resIdx": 0,
+            "lbl": "virtB",
+            "min": 1,
+            "max": 5,
+            "val": 3
+          },
+          {
+            "id": 22,
+            "name": "Intellect",
+            "desc": "[virtue 3]",
+            "resIdx": 0,
+            "lbl": "virtC",
+            "min": 1,
+            "max": 5,
+            "val": 2
+          },
+          {
+            "id": 23,
+            "name": "Order",
+            "desc": "[virtue 4]",
+            "resIdx": 0,
+            "lbl": "virtD",
+            "min": 1,
+            "max": 5,
             "val": 3
           }
         ]
@@ -379,7 +379,7 @@
       ]
     },
     {
-      "id": 1017,
+      "id": 1013,
       "color": -7829368,
       "hash": "4533E0BE762868B94A6360DEF4A8AFFD",
       "body": [
@@ -387,8 +387,8 @@
         "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",
-        "ZSMM9cUJuvy4PbCrScKRXk19/SHMZjNzb57DeGKIeFYAcVSFHFKh9hnIX5LB5AUzMI9I6LUGfnpbPkV5JkT9GHLQR3pmJhbrGXpiAwytC6PSiMhZMaQaAcMVUbrW+rjje8vRmW1Uz67m+IFmjkS3M+ge4NX7/8Qf392NJMQxCX7MmgTrd7aS64gwLJ9PLNJJdrYOdyBA7fx7OX/VBV8LB/4OF/veTTdxYO8GcvOq0Ubrqaq9nfKyerpa2ogEowz0xTnQpmbB8ut59jfPIkkSL7/zKoaLozjlATRHjJjyjCQ7tISY5RUqzG6RTIMH/Mnfe8hN8fw+FwEIvFOVh/kK3bVuMc7cVoKuSRRx7DaDB8NaBEIsGhwztJTeol1ZrGc0++jqSZxZz5FzB9Wjn9Z1djTLHRsslNcRp098goJJjo8qAvVeEaG8VtGyPugSxdNjd8L5+B8bNI5ijuQgOtMwNoOybbFxeWczgWBvbWtpJuWaMyPNmGs4q7DnkRIiLKETYd3Ar1qlBmhhi7Gwcg0nCXmYhy6WhsjGT9UndFOZmo5ISbNm8BnOaRKRPgKQo5y1YwrGjJzn//FUcam4EcZyyDB1qUcAbbqI3vJBTTbsI66axfdcvsFiT+N6NN36t/X/Txfx+Pwk5wXdu+CaOFDs2sxN7fBtv12tIxBQUTxyX3cQjDz3Id5bdzODQID0TXVz5g0uI9gmUVmYyZUqEUUVH2GghWVAzPNrPsNGLZ5/Msmkr0RksJCUZaWtuR9LrSCRCtMcOoa1UIcXNGNwCTs0YmSk6JrttCMF8cpINfLT5MKdaXYhWAfMyhatSb2KrbjXuIS/xBqiKRZg1VaSkSIdW",
-        "L3LG+U2OHTvG4iUXc/XV12Kz2f7mkssXepDP5+Oll57H5erBbEnjssuuY1JpKYIgUHfOEuLRYTTjn+IJAa4IvYoOBYlkq5onTj3EczufJS2WhqctRkIEvV7gusUziMQbAOh2eznVreCaEsaqzUAdhfSMVOy2VKqraijOb6erp42zZzoIWGIYs7WE1E5C2w3oJ8tU+sxY9QKnOgfwBtJIcqRgzHAiVMWJTQi8u/NNZHuIlfMvZl7lQn72kIEm4N4JxRCwwlS0xykpGTT0tbI4MAIxaWTqd9/DHWfgxH9MCkXxxHLNbijIpsrB8hq0JGXPJW0JDVxr4eF6lz2bOglPA76Wj/6kIUkOZnVn31A6eQath05TEFGlJY+mZXzhln3zg/44YNbeP6FJzlzegvJyQJV09J4decB7JkK4v+Y1b7wa2xslL7BM0wpUNHZ3o1JK5Od1Erc9Tvef/cxBnv6GB50gwzH+/Ros1RIOTJiagK5RUV0QCG7owitRuLO",
+        "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",
